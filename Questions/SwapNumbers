@@ -1,0 +1,16 @@
+# Swaping Two Numbers without any Built in function
+
+a = int(input("Enter First Number : "))
+b = int(input("Enter Second Number : "))
+
+print(f"First Number is : ",{a})
+print(f"Second Number is : ",{b})
+print()
+print("After Swap")
+print()
+temp = a 
+a = b
+b = temp 
+
+print(f"First Number is now : ",{a})
+print(f"Second Number is now : ",{b
