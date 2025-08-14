@@ -1,0 +1,19 @@
+user = str(input("Type Yes for checking 3 no. greatnes or type exit ")).lower()
+while True:
+    if(user !="exit"):
+     
+     a = int(input("Enter First Number "))
+     b = int(input("Enter Second Number "))
+     c = int(input("Enter Third Number "))
+
+     max_no = a
+
+     if(max_no < b):
+      max_no = b
+      if(max_no < c):
+       max_no = c
+    
+      print(max_no)     
+       
+     if(user == "exit"):
+         print("You are exiting")
