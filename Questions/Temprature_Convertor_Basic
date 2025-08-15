@@ -1,0 +1,12 @@
+# Coverting Temprature 
+# Into Kelvin And Farenheit
+
+temp = int(input("Enter your Celcius here : "))
+mark = str(input("Type 1 for Kelvin and Type 2 for Farenheit : ")).lower()
+
+if(mark == "1"):
+    kelvin = temp + 273.15
+    print(f"{temp}° Celcius in Kelvin is :  {kelvin:.2f}")
+elif(mark == "2"):
+    faren = (temp * 1.8) + 32
+    print(f"{temp}° Celcius in Farenheit is :  {faren: .2f}")
