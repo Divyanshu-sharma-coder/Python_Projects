@@ -1,0 +1,39 @@
+# Finding a Number is Even or Odd
+
+# (1) Method
+# Modulo Function
+while True:
+    code = int(input("Enter Your Number : "))
+    if code < 0:
+        print("What Are You doing bro !! ")
+        break
+    if code % 2 == 0:
+         print("Even")
+    else:
+         print("Odd")
+         
+# (2) Method
+# Floor Divison Method 
+while True:
+    num = int(input("Enter Your Number : "))
+    if num<0:
+        print("Again you are doing this childish Thing !! ")
+        break
+    if(num // 2)*2 == num:
+        print("Even")
+    else:
+        print("Odd")
+        
+# (3rd) Method 
+# Lambda Method
+
+while True:
+    digit = int(input("Enter your Number : "))
+    if digit<0:
+        print("Now You making a fuss !! ")
+        break
+    lam = lambda digit: digit%2
+    if digit%2 == 0:
+        print("Even")
+    else:
+        print("Odd")
