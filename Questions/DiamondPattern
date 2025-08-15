@@ -1,0 +1,23 @@
+# Diamond Pattern
+
+def print_diamond(n):
+    # Upper half
+    for i in range(n):
+        for j in range(n - i - 1):
+            print(" ", end="")
+        for k in range(2 * i + 1):
+            print("*", end="")
+        print()  # Move to the next line
+
+    # Lower half
+    for i in range(n - 2, -1, -1):
+        for j in range(n - i - 1):
+            print(" ", end="")
+        for k in range(2 * i + 1):
+            print("*", end="")
+        print()  # Move to the next line
+
+
+# Take input
+n = int(input("Enter no. of Rows: "))
+print_diamond(n)
