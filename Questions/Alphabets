@@ -1,0 +1,7 @@
+# Printing alphabets 
+
+start = ord("a")
+end = start + 26
+while start < end:
+    print(chr(start), end=" ")
+    start+=1
