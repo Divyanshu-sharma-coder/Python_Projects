@@ -1,0 +1,38 @@
+# Average Of 3 Numbers 
+
+# 1st Method
+
+def avg_1 (num1, num2, num3):
+    return (num1 + num2 + num3)/3
+    
+num1 = float(input("Enter First Number : "))
+num2 = float(input("Enter Second Number : "))
+num3 = float(input("Enter Third Number : "))
+avg_2 = avg_1(num1, num2, num3)
+print(f"The Average is : {avg_2:.2f}")
+
+# 2nd Method
+
+avg_3 = lambda a, b, c : (a+b+c)/3
+
+a = float(input("Enter First Number : "))
+b = float(input("Enter Second Number : "))
+c = float(input("Enter Third Number : "))
+avg_4 = avg_3(num1, num2, num3)
+print(f"The Average is : {avg_4:.2f}")
+
+avg_4 = avg_3(a , b, c)
+print(f"The Average is : {avg_4:.2f}")
+
+# 3rd Method
+
+import numpy as np
+def avg_5 (x , y, z):
+    return np.mean([x,y,z])
+    
+
+x= float(input("Enter First Number : "))
+y= float(input("Enter Second Number : "))
+z = float(input("Enter Third Number : "))
+avg_6 = avg_5(x , y, z)
+print(f"The Average is : {avg_6:.2f}")
