@@ -1,0 +1,37 @@
+# 🕒 Digital Clock with Date
+
+A sleek, minimalist **digital clock** built with Python and Tkinter. Displays the current time and date in a stylish, easy-to-read format.
+
+---
+
+## ✨ Features
+- **Real-time clock** with seconds, minutes, and hours.
+- **AM/PM format** for clarity.
+- **Date display** (Day, Date, Month, Year).
+- **Customizable UI**: Black background with white text for a modern look.
+- **Resizable window** for flexibility.
+
+---
+
+## 📸 Preview
+![Digital Clock Preview](https://via.placeholder.com/400x200/000000/FFFFFF?text=Digital+Clock+Preview)
+*(Replace with an actual screenshot of your clock!)*
+
+---
+
+## 🛠️ Requirements
+- Python 3.x
+- Tkinter (usually included with Python)
+
+---
+
+## 🚀 How to Run
+1. **Clone the repository** (or download the script):
+   ```bash
+   git clone https://github.com/Divyanshu-sharma-coder/digital-clock.git
+
+
+# If You want to do any customization feel free to do it
+
+Change the font, size, or colors by modifying the Label properties in the code.
+Adjust the window size by editing root.geometry("400x200").
